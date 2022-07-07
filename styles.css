@@ -1,0 +1,137 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background: #333 url('img/paper-pattern.jpg') top left repeat;
+  color: #333;
+  text-align: center;
+  font: 20px sans-serif;
+}
+
+h1 {
+  font-family: 'The Nautigal';
+  font-size: 900px;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+}
+
+
+.cover-page{
+  text-align: center;
+  background: #333 url('img/SBA.jpeg') top left no-repeat;
+  height: 600px;
+}
+
+.page-header {
+  border-bottom: 2px solid #311465;
+  margin: 0px;
+}
+
+.sba {
+  float: left;
+  color: #333;
+
+}
+
+nav {
+  float: right;
+  padding-top: 30px;
+}
+
+.nav-link {
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 5px;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  background-color: #555;
+  color: #fff;
+}
+
+.cover-page {
+  height: 600px;
+
+}
+
+button {
+  background: #fff;
+  color: #111;
+  border: none;
+  border-bottom: solid 4px #222;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px;
+  width: 10%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 10px;
+}
+
+.our-services {
+  
+}
+
+footer {
+  text-align: center;
+  background-color: #731285;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 45px;
+}
